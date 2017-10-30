@@ -1,0 +1,26 @@
+insert into buses values('Punganur','Chennai','11:00AM','4:00PM',2345);
+insert into buses values('Punganur','Hyderabad','7:00PM','8:00AM',5678);
+insert into buses values('Chennai','Punganur','7:00PM','3:00AM',5893);
+
+
+
+-------------------------Buses table--------------------------------------------
+Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ FROM_LOC                                           VARCHAR2(30)
+ TO_LOC                                             VARCHAR2(30)
+ DEPARTURE                                          VARCHAR2(10)
+ ARRIVAL                                            VARCHAR2(10)
+ SERVICE_NO                                         NUMBER(38)
+
+---------------------------------------------------------------------------------
+------------------------User table-----------------------------------------------
+
+Name                                      Null?    Type
+------------------------------------------- -------- ----------------------------
+ USERNAME                                           VARCHAR2(30)
+ EMAIL                                              VARCHAR2(30)
+ PASSWORD                                           VARCHAR2(30)
+ GENDER                                             VARCHAR2(10)
+
+----------------------------------------------------------------------------------
